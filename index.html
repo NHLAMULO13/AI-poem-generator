@@ -7,33 +7,36 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI poem generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI poem generator</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <br />
+        <div class="poem">Poem will go here</div>
+      </main>
       <br />
-      <div>Poem will go here</div>
-    </main>
-    <br />
-    <footer>
-      This project was coded by
-      <a href="https://github.com/NHLAMULO13">Nhlamulo Nyalungu</a> and is
-      open-sourced on
-      <a href="https://github.com/NHLAMULO13/AI-poem-generator">Github</a> and
-      is hosted on
-      <a href="https://aquamarine-paprenjak-2c3383.netlify.app/">Netlify</a>
-    </footer>
-    <script src="src/app.js"></script>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/NHLAMULO13">Nhlamulo Nyalungu</a> and is
+        open-sourced on
+        <a href="https://github.com/NHLAMULO13/AI-poem-generator">Github</a> and
+        is hosted on
+        <a href="https://aquamarine-paprenjak-2c3383.netlify.app/">Netlify</a>
+      </footer>
+      <script src="src/app.js"></script>
+    </div>
   </body>
 </html>
